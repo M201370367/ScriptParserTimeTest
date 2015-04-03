@@ -1,0 +1,561 @@
+button1VI:
+  ID: "Switch"
+  Rect: 20,15,140,50
+  Color: 000000,aa8888
+  Text: "运行_停止"
+  FontSize: 16
+  PushData: "Generator,0,0"
+mbuttonVI:
+  ID: "SignalType"
+  Rect: "20,90,140,210"
+  Color: "000000,88aa88"
+  Text: "白噪声_正弦波_方波_三角波"
+  FontSize: 16
+  Number: 4
+  Select: 1
+  Type: 1
+  PushData: "Generator,0,1"
+generator1VI:
+  ID: "Generator"
+  Rect: "20,540,46,40"
+  Type: 1
+  Length: 32768
+  Fs: 44100
+  A_F_P: "4,800,0"
+  PushData: "Monitor,0,0,Speaker,0,0"
+speakerVI:
+  ID: "Speaker"
+  Rect: "120,540,40,40"
+  Amplify: 1000
+buttonVI:
+  ID: "6"
+  Rect: "20,460,140,50"
+  Color: "000000,88aa88"
+  Text: "播放_停止"
+  PushData: "Speaker,0,0"
+numpickerVI:
+  ID: "7"
+  Rect: "20,320,140,50"
+  Color: "000000,aa8888"
+  FontSize: 16
+  Parameters: "0,10,0.5"
+  Value: 4
+  PushData: "Generator,0,3"
+scrollVI:
+  ID: "8"
+  Rect: "20,390,140,50"
+  Color: "ff00aaaa,ffaa00cc,ff888888"
+  PinType: 2
+  Value: 50
+  Rate: 10
+  PushData: "Generator,0,2"
+ECGMonitor:
+  ID: "Monitor"
+  Rect: "180,15,700,420"
+  Parameters1: "-10,10"
+  Parameters2: "0,10"
+button1VI:
+  ID: "Switch"
+  Rect: "20,15,140,50"
+  Color: "000000,aa8888"
+  Text: "运行_停止"
+  FontSize: 16
+  PushData: "Generator,0,0"
+mbuttonVI:
+  ID: "SignalType"
+  Rect: "20,90,140,210"
+  Color: "000000,88aa88"
+  Text: "白噪声_正弦波_方波_三角波"
+  FontSize: 16
+  Number: 4
+  Select: 1
+  Type: 1
+  PushData: "Generator,0,1"
+generator1VI:
+  ID: "Generator"
+  Rect: "20,540,46,40"
+  Type: 1
+  Length: 32768
+  Fs: 44100
+  A_F_P: "4,800,0"
+  PushData: "Monitor,0,0,Speaker,0,0"
+speakerVI:
+  ID: "Speaker"
+  Rect: "120,540,40,40"
+  Amplify: 1000
+buttonVI:
+  ID: "6"
+  Rect: "20,460,140,50"
+  Color: "000000,88aa88"
+  Text: "播放_停止"
+  PushData: "Speaker,0,0"
+numpickerVI:
+  ID: "7"
+  Rect: "20,320,140,50"
+  Color: "000000,aa8888"
+  FontSize: 16
+  Parameters: "0,10,0.5"
+  Value: 4
+  PushData: "Generator,0,3"
+scrollVI:
+  ID: "8"
+  Rect: "20,390,140,50"
+  Color: "ff00aaaa,ffaa00cc,ff888888"
+  PinType: 2
+  Value: 50
+  Rate: 10
+  PushData: "Generator,0,2"
+ECGMonitor:
+  ID: "Monitor"
+  Rect: "180,15,700,420"
+  Parameters1: "-10,10"
+  Parameters2: "0,10"
+  button1VI:
+  ID: "Switch"
+  Rect: "20,15,140,50"
+  Color: "000000,aa8888"
+  Text: "运行_停止"
+  FontSize: 16
+  PushData: "Generator,0,0"
+mbuttonVI:
+  ID: "SignalType"
+  Rect: "20,90,140,210"
+  Color: "000000,88aa88"
+  Text: "白噪声_正弦波_方波_三角波"
+  FontSize: 16
+  Number: 4
+  Select: 1
+  Type: 1
+  PushData: "Generator,0,1"
+generator1VI:
+  ID: "Generator"
+  Rect: "20,540,46,40"
+  Type: 1
+  Length: 32768
+  Fs: 44100
+  A_F_P: "4,800,0"
+  PushData: "Monitor,0,0,Speaker,0,0"
+speakerVI:
+  ID: "Speaker"
+  Rect: "120,540,40,40"
+  Amplify: 1000
+buttonVI:
+  ID: "6"
+  Rect: "20,460,140,50"
+  Color: "000000,88aa88"
+  Text: "播放_停止"
+  PushData: "Speaker,0,0"
+numpickerVI:
+  ID: "7"
+  Rect: "20,320,140,50"
+  Color: "000000,aa8888"
+  FontSize: 16
+  Parameters: "0,10,0.5"
+  Value: 4
+  PushData: "Generator,0,3"
+scrollVI:
+  ID: "8"
+  Rect: "20,390,140,50"
+  Color: "ff00aaaa,ffaa00cc,ff888888"
+  PinType: 2
+  Value: 50
+  Rate: 10
+  PushData: "Generator,0,2"
+ECGMonitor:
+  ID: "Monitor"
+  Rect: "180,15,700,420"
+  Parameters1: "-10,10"
+  Parameters2: "0,10"
+  button1VI:
+  ID: "Switch"
+  Rect: "20,15,140,50"
+  Color: "000000,aa8888"
+  Text: "运行_停止"
+  FontSize: 16
+  PushData: "Generator,0,0"
+mbuttonVI:
+  ID: "SignalType"
+  Rect: "20,90,140,210"
+  Color: "000000,88aa88"
+  Text: "白噪声_正弦波_方波_三角波"
+  FontSize: 16
+  Number: 4
+  Select: 1
+  Type: 1
+  PushData: "Generator,0,1"
+generator1VI:
+  ID: "Generator"
+  Rect: "20,540,46,40"
+  Type: 1
+  Length: 32768
+  Fs: 44100
+  A_F_P: "4,800,0"
+  PushData: "Monitor,0,0,Speaker,0,0"
+speakerVI:
+  ID: "Speaker"
+  Rect: "120,540,40,40"
+  Amplify: 1000
+buttonVI:
+  ID: "6"
+  Rect: "20,460,140,50"
+  Color: "000000,88aa88"
+  Text: "播放_停止"
+  PushData: "Speaker,0,0"
+numpickerVI:
+  ID: "7"
+  Rect: "20,320,140,50"
+  Color: "000000,aa8888"
+  FontSize: 16
+  Parameters: "0,10,0.5"
+  Value: 4
+  PushData: "Generator,0,3"
+scrollVI:
+  ID: "8"
+  Rect: "20,390,140,50"
+  Color: "ff00aaaa,ffaa00cc,ff888888"
+  PinType: 2
+  Value: 50
+  Rate: 10
+  PushData: "Generator,0,2"
+ECGMonitor:
+  ID: "Monitor"
+  Rect: "180,15,700,420"
+  Parameters1: "-10,10"
+  Parameters2: "0,10"
+  button1VI:
+  ID: "Switch"
+  Rect: "20,15,140,50"
+  Color: "000000,aa8888"
+  Text: "运行_停止"
+  FontSize: 16
+  PushData: "Generator,0,0"
+mbuttonVI:
+  ID: "SignalType"
+  Rect: "20,90,140,210"
+  Color: "000000,88aa88"
+  Text: "白噪声_正弦波_方波_三角波"
+  FontSize: 16
+  Number: 4
+  Select: 1
+  Type: 1
+  PushData: "Generator,0,1"
+generator1VI:
+  ID: "Generator"
+  Rect: "20,540,46,40"
+  Type: 1
+  Length: 32768
+  Fs: 44100
+  A_F_P: "4,800,0"
+  PushData: "Monitor,0,0,Speaker,0,0"
+speakerVI:
+  ID: "Speaker"
+  Rect: "120,540,40,40"
+  Amplify: 1000
+buttonVI:
+  ID: "6"
+  Rect: "20,460,140,50"
+  Color: "000000,88aa88"
+  Text: "播放_停止"
+  PushData: "Speaker,0,0"
+numpickerVI:
+  ID: "7"
+  Rect: "20,320,140,50"
+  Color: "000000,aa8888"
+  FontSize: 16
+  Parameters: "0,10,0.5"
+  Value: 4
+  PushData: "Generator,0,3"
+scrollVI:
+  ID: "8"
+  Rect: "20,390,140,50"
+  Color: "ff00aaaa,ffaa00cc,ff888888"
+  PinType: 2
+  Value: 50
+  Rate: 10
+  PushData: "Generator,0,2"
+ECGMonitor:
+  ID: "Monitor"
+  Rect: "180,15,700,420"
+  Parameters1: "-10,10"
+  Parameters2: "0,10"
+  button1VI:
+  ID: "Switch"
+  Rect: "20,15,140,50"
+  Color: "000000,aa8888"
+  Text: "运行_停止"
+  FontSize: 16
+  PushData: "Generator,0,0"
+mbuttonVI:
+  ID: "SignalType"
+  Rect: "20,90,140,210"
+  Color: "000000,88aa88"
+  Text: "白噪声_正弦波_方波_三角波"
+  FontSize: 16
+  Number: 4
+  Select: 1
+  Type: 1
+  PushData: "Generator,0,1"
+generator1VI:
+  ID: "Generator"
+  Rect: "20,540,46,40"
+  Type: 1
+  Length: 32768
+  Fs: 44100
+  A_F_P: "4,800,0"
+  PushData: "Monitor,0,0,Speaker,0,0"
+speakerVI:
+  ID: "Speaker"
+  Rect: "120,540,40,40"
+  Amplify: 1000
+buttonVI:
+  ID: "6"
+  Rect: "20,460,140,50"
+  Color: "000000,88aa88"
+  Text: "播放_停止"
+  PushData: "Speaker,0,0"
+numpickerVI:
+  ID: "7"
+  Rect: "20,320,140,50"
+  Color: "000000,aa8888"
+  FontSize: 16
+  Parameters: "0,10,0.5"
+  Value: 4
+  PushData: "Generator,0,3"
+scrollVI:
+  ID: "8"
+  Rect: "20,390,140,50"
+  Color: "ff00aaaa,ffaa00cc,ff888888"
+  PinType: 2
+  Value: 50
+  Rate: 10
+  PushData: "Generator,0,2"
+ECGMonitor:
+  ID: "Monitor"
+  Rect: "180,15,700,420"
+  Parameters1: "-10,10"
+  Parameters2: "0,10"
+  button1VI:
+  ID: "Switch"
+  Rect: "20,15,140,50"
+  Color: "000000,aa8888"
+  Text: "运行_停止"
+  FontSize: 16
+  PushData: "Generator,0,0"
+mbuttonVI:
+  ID: "SignalType"
+  Rect: "20,90,140,210"
+  Color: "000000,88aa88"
+  Text: "白噪声_正弦波_方波_三角波"
+  FontSize: 16
+  Number: 4
+  Select: 1
+  Type: 1
+  PushData: "Generator,0,1"
+generator1VI:
+  ID: "Generator"
+  Rect: "20,540,46,40"
+  Type: 1
+  Length: 32768
+  Fs: 44100
+  A_F_P: "4,800,0"
+  PushData: "Monitor,0,0,Speaker,0,0"
+speakerVI:
+  ID: "Speaker"
+  Rect: "120,540,40,40"
+  Amplify: 1000
+buttonVI:
+  ID: "6"
+  Rect: "20,460,140,50"
+  Color: "000000,88aa88"
+  Text: "播放_停止"
+  PushData: "Speaker,0,0"
+numpickerVI:
+  ID: "7"
+  Rect: "20,320,140,50"
+  Color: "000000,aa8888"
+  FontSize: 16
+  Parameters: "0,10,0.5"
+  Value: 4
+  PushData: "Generator,0,3"
+scrollVI:
+  ID: "8"
+  Rect: "20,390,140,50"
+  Color: "ff00aaaa,ffaa00cc,ff888888"
+  PinType: 2
+  Value: 50
+  Rate: 10
+  PushData: "Generator,0,2"
+ECGMonitor:
+  ID: "Monitor"
+  Rect: "180,15,700,420"
+  Parameters1: "-10,10"
+  Parameters2: "0,10"
+  button1VI:
+  ID: "Switch"
+  Rect: "20,15,140,50"
+  Color: "000000,aa8888"
+  Text: "运行_停止"
+  FontSize: 16
+  PushData: "Generator,0,0"
+mbuttonVI:
+  ID: "SignalType"
+  Rect: "20,90,140,210"
+  Color: "000000,88aa88"
+  Text: "白噪声_正弦波_方波_三角波"
+  FontSize: 16
+  Number: 4
+  Select: 1
+  Type: 1
+  PushData: "Generator,0,1"
+generator1VI:
+  ID: "Generator"
+  Rect: "20,540,46,40"
+  Type: 1
+  Length: 32768
+  Fs: 44100
+  A_F_P: "4,800,0"
+  PushData: "Monitor,0,0,Speaker,0,0"
+speakerVI:
+  ID: "Speaker"
+  Rect: "120,540,40,40"
+  Amplify: 1000
+buttonVI:
+  ID: "6"
+  Rect: "20,460,140,50"
+  Color: "000000,88aa88"
+  Text: "播放_停止"
+  PushData: "Speaker,0,0"
+numpickerVI:
+  ID: "7"
+  Rect: "20,320,140,50"
+  Color: "000000,aa8888"
+  FontSize: 16
+  Parameters: "0,10,0.5"
+  Value: 4
+  PushData: "Generator,0,3"
+scrollVI:
+  ID: "8"
+  Rect: "20,390,140,50"
+  Color: "ff00aaaa,ffaa00cc,ff888888"
+  PinType: 2
+  Value: 50
+  Rate: 10
+  PushData: "Generator,0,2"
+ECGMonitor:
+  ID: "Monitor"
+  Rect: "180,15,700,420"
+  Parameters1: "-10,10"
+  Parameters2: "0,10"
+  button1VI:
+  ID: "Switch"
+  Rect: "20,15,140,50"
+  Color: "000000,aa8888"
+  Text: "运行_停止"
+  FontSize: 16
+  PushData: "Generator,0,0"
+mbuttonVI:
+  ID: "SignalType"
+  Rect: "20,90,140,210"
+  Color: "000000,88aa88"
+  Text: "白噪声_正弦波_方波_三角波"
+  FontSize: 16
+  Number: 4
+  Select: 1
+  Type: 1
+  PushData: "Generator,0,1"
+generator1VI:
+  ID: "Generator"
+  Rect: "20,540,46,40"
+  Type: 1
+  Length: 32768
+  Fs: 44100
+  A_F_P: "4,800,0"
+  PushData: "Monitor,0,0,Speaker,0,0"
+speakerVI:
+  ID: "Speaker"
+  Rect: "120,540,40,40"
+  Amplify: 1000
+buttonVI:
+  ID: "6"
+  Rect: "20,460,140,50"
+  Color: "000000,88aa88"
+  Text: "播放_停止"
+  PushData: "Speaker,0,0"
+numpickerVI:
+  ID: "7"
+  Rect: "20,320,140,50"
+  Color: "000000,aa8888"
+  FontSize: 16
+  Parameters: "0,10,0.5"
+  Value: 4
+  PushData: "Generator,0,3"
+scrollVI:
+  ID: "8"
+  Rect: "20,390,140,50"
+  Color: "ff00aaaa,ffaa00cc,ff888888"
+  PinType: 2
+  Value: 50
+  Rate: 10
+  PushData: "Generator,0,2"
+ECGMonitor:
+  ID: "Monitor"
+  Rect: "180,15,700,420"
+  Parameters1: "-10,10"
+  Parameters2: "0,10"
+  button1VI:
+  ID: "Switch"
+  Rect: "20,15,140,50"
+  Color: "000000,aa8888"
+  Text: "运行_停止"
+  FontSize: 16
+  PushData: "Generator,0,0"
+mbuttonVI:
+  ID: "SignalType"
+  Rect: "20,90,140,210"
+  Color: "000000,88aa88"
+  Text: "白噪声_正弦波_方波_三角波"
+  FontSize: 16
+  Number: 4
+  Select: 1
+  Type: 1
+  PushData: "Generator,0,1"
+generator1VI:
+  ID: "Generator"
+  Rect: "20,540,46,40"
+  Type: 1
+  Length: 32768
+  Fs: 44100
+  A_F_P: "4,800,0"
+  PushData: "Monitor,0,0,Speaker,0,0"
+speakerVI:
+  ID: "Speaker"
+  Rect: "120,540,40,40"
+  Amplify: 1000
+buttonVI:
+  ID: "6"
+  Rect: "20,460,140,50"
+  Color: "000000,88aa88"
+  Text: "播放_停止"
+  PushData: "Speaker,0,0"
+numpickerVI:
+  ID: "7"
+  Rect: "20,320,140,50"
+  Color: "000000,aa8888"
+  FontSize: 16
+  Parameters: "0,10,0.5"
+  Value: 4
+  PushData: "Generator,0,3"
+scrollVI:
+  ID: "8"
+  Rect: "20,390,140,50"
+  Color: "ff00aaaa,ffaa00cc,ff888888"
+  PinType: 2
+  Value: 50
+  Rate: 10
+  PushData: "Generator,0,2"
+ECGMonitor:
+  ID: "Monitor"
+  Rect: "180,15,700,420"
+  Parameters1: "-10,10"
+  Parameters2: "0,10"
+  

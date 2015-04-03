@@ -1,0 +1,749 @@
+<?xml version='1.0'  encoding='UTF-8' ?>
+<xviml_1.x>
+
+<Rem>
+  <Rem value="数字信号发生器"/>
+</Rem>
+
+<button1VI>
+  <ID value="Switch"/>
+  <Rect value="20,15,140,50"/>
+  <Color value="000000,aa8888"/>
+  <Text value="运行_停止"/>
+  <FontSize value="16"/>
+  <PushData value="Generator,0,0"/>
+</button1VI>
+
+<mbuttonVI>
+  <ID value="SignalType"/>
+  <Rect value="20,90,140,210"/>
+  <Color value="000000,88aa88"/>
+  <Text value="白噪声_正弦波_方波_三角波"/>
+  <FontSize value="16"/>
+  <Number value="4"/>;
+  <Select value="1"/>
+  <Type value="1"/>
+  <PushData value="Generator,0,1"/>
+</mbuttonVI>
+
+<generator1VI>
+  <ID value="Generator"/>
+  <Rect value="20,540,46,40"/>
+  <Type value="1"/>
+  <Length value="32768"/>
+  <Fs value="44100"/>
+  <A_F_P value="4,800,0"/>   
+  <PushData value="Monitor,0,0,Speaker,0,0"/>
+</generator1VI>
+
+
+<speakerVI>
+  <ID value="Speaker"/>
+  <Rect value="120,540,40,40"/>
+  <Amplify value="1000"/>
+</speakerVI>     
+
+<buttonVI>
+  <ID value="6"/>
+  <Rect value="20,460,140,50"/>
+  <Color value="000000,88aa88"/>
+  <Text value="播放_停止"/>
+  <PushData value="Speaker,0,0"/>
+</buttonVI>
+
+<numpickerVI>
+  <ID value="7"/>
+  <Rect value="20,320,140,50"/>
+  <Color value="000000,aa8888"/>
+  <FontSize value="16"/>  
+  <Parameters value="0,10,0.5"/> 
+  <Value value="4"/>
+  <PushData value="Generator,0,3"/>
+</numpickerVI>   
+
+<scrollVI>
+  <ID value="8"/>
+  <Rect value="20,390,140,50"/>
+  <Color value="ff00aaaa,ffaa00cc,ff888888"/>      
+  <PinType value="2"/>
+  <Value value="50"/>
+  <Rate value="10"/>  
+  <PushData value="Generator,0,2"/>
+</scrollVI>
+ 
+
+<ECGMonitor>
+  <ID value="Monitor"/>
+  <Rect value="180,15,700,420"/>
+  <Parameters1 value="-10,10"/>  
+  <Parameters2 value="0,10"/>      
+</ECGMonitor> 
+
+<button1VI>
+  <ID value="Switch"/>
+  <Rect value="20,15,140,50"/>
+  <Color value="000000,aa8888"/>
+  <Text value="运行_停止"/>
+  <FontSize value="16"/>
+  <PushData value="Generator,0,0"/>
+</button1VI>
+
+<mbuttonVI>
+  <ID value="SignalType"/>
+  <Rect value="20,90,140,210"/>
+  <Color value="000000,88aa88"/>
+  <Text value="白噪声_正弦波_方波_三角波"/>
+  <FontSize value="16"/>
+  <Number value="4"/>;
+  <Select value="1"/>
+  <Type value="1"/>
+  <PushData value="Generator,0,1"/>
+</mbuttonVI>
+
+<generator1VI>
+  <ID value="Generator"/>
+  <Rect value="20,540,46,40"/>
+  <Type value="1"/>
+  <Length value="32768"/>
+  <Fs value="44100"/>
+  <A_F_P value="4,800,0"/>   
+  <PushData value="Monitor,0,0,Speaker,0,0"/>
+</generator1VI>
+
+
+<speakerVI>
+  <ID value="Speaker"/>
+  <Rect value="120,540,40,40"/>
+  <Amplify value="1000"/>
+</speakerVI>     
+
+<buttonVI>
+  <ID value="6"/>
+  <Rect value="20,460,140,50"/>
+  <Color value="000000,88aa88"/>
+  <Text value="播放_停止"/>
+  <PushData value="Speaker,0,0"/>
+</buttonVI>
+
+<numpickerVI>
+  <ID value="7"/>
+  <Rect value="20,320,140,50"/>
+  <Color value="000000,aa8888"/>
+  <FontSize value="16"/>  
+  <Parameters value="0,10,0.5"/> 
+  <Value value="4"/>
+  <PushData value="Generator,0,3"/>
+</numpickerVI>   
+
+<scrollVI>
+  <ID value="8"/>
+  <Rect value="20,390,140,50"/>
+  <Color value="ff00aaaa,ffaa00cc,ff888888"/>      
+  <PinType value="2"/>
+  <Value value="50"/>
+  <Rate value="10"/>  
+  <PushData value="Generator,0,2"/>
+</scrollVI>
+ 
+
+<ECGMonitor>
+  <ID value="Monitor"/>
+  <Rect value="180,15,700,420"/>
+  <Parameters1 value="-10,10"/>  
+  <Parameters2 value="0,10"/>      
+</ECGMonitor> 
+
+<button1VI>
+  <ID value="Switch"/>
+  <Rect value="20,15,140,50"/>
+  <Color value="000000,aa8888"/>
+  <Text value="运行_停止"/>
+  <FontSize value="16"/>
+  <PushData value="Generator,0,0"/>
+</button1VI>
+
+<mbuttonVI>
+  <ID value="SignalType"/>
+  <Rect value="20,90,140,210"/>
+  <Color value="000000,88aa88"/>
+  <Text value="白噪声_正弦波_方波_三角波"/>
+  <FontSize value="16"/>
+  <Number value="4"/>;
+  <Select value="1"/>
+  <Type value="1"/>
+  <PushData value="Generator,0,1"/>
+</mbuttonVI>
+
+<generator1VI>
+  <ID value="Generator"/>
+  <Rect value="20,540,46,40"/>
+  <Type value="1"/>
+  <Length value="32768"/>
+  <Fs value="44100"/>
+  <A_F_P value="4,800,0"/>   
+  <PushData value="Monitor,0,0,Speaker,0,0"/>
+</generator1VI>
+
+
+<speakerVI>
+  <ID value="Speaker"/>
+  <Rect value="120,540,40,40"/>
+  <Amplify value="1000"/>
+</speakerVI>     
+
+<buttonVI>
+  <ID value="6"/>
+  <Rect value="20,460,140,50"/>
+  <Color value="000000,88aa88"/>
+  <Text value="播放_停止"/>
+  <PushData value="Speaker,0,0"/>
+</buttonVI>
+
+<numpickerVI>
+  <ID value="7"/>
+  <Rect value="20,320,140,50"/>
+  <Color value="000000,aa8888"/>
+  <FontSize value="16"/>  
+  <Parameters value="0,10,0.5"/> 
+  <Value value="4"/>
+  <PushData value="Generator,0,3"/>
+</numpickerVI>   
+
+<scrollVI>
+  <ID value="8"/>
+  <Rect value="20,390,140,50"/>
+  <Color value="ff00aaaa,ffaa00cc,ff888888"/>      
+  <PinType value="2"/>
+  <Value value="50"/>
+  <Rate value="10"/>  
+  <PushData value="Generator,0,2"/>
+</scrollVI>
+ 
+
+<ECGMonitor>
+  <ID value="Monitor"/>
+  <Rect value="180,15,700,420"/>
+  <Parameters1 value="-10,10"/>  
+  <Parameters2 value="0,10"/>      
+</ECGMonitor> 
+
+<button1VI>
+  <ID value="Switch"/>
+  <Rect value="20,15,140,50"/>
+  <Color value="000000,aa8888"/>
+  <Text value="运行_停止"/>
+  <FontSize value="16"/>
+  <PushData value="Generator,0,0"/>
+</button1VI>
+
+<mbuttonVI>
+  <ID value="SignalType"/>
+  <Rect value="20,90,140,210"/>
+  <Color value="000000,88aa88"/>
+  <Text value="白噪声_正弦波_方波_三角波"/>
+  <FontSize value="16"/>
+  <Number value="4"/>;
+  <Select value="1"/>
+  <Type value="1"/>
+  <PushData value="Generator,0,1"/>
+</mbuttonVI>
+
+<generator1VI>
+  <ID value="Generator"/>
+  <Rect value="20,540,46,40"/>
+  <Type value="1"/>
+  <Length value="32768"/>
+  <Fs value="44100"/>
+  <A_F_P value="4,800,0"/>   
+  <PushData value="Monitor,0,0,Speaker,0,0"/>
+</generator1VI>
+
+
+<speakerVI>
+  <ID value="Speaker"/>
+  <Rect value="120,540,40,40"/>
+  <Amplify value="1000"/>
+</speakerVI>     
+
+<buttonVI>
+  <ID value="6"/>
+  <Rect value="20,460,140,50"/>
+  <Color value="000000,88aa88"/>
+  <Text value="播放_停止"/>
+  <PushData value="Speaker,0,0"/>
+</buttonVI>
+
+<numpickerVI>
+  <ID value="7"/>
+  <Rect value="20,320,140,50"/>
+  <Color value="000000,aa8888"/>
+  <FontSize value="16"/>  
+  <Parameters value="0,10,0.5"/> 
+  <Value value="4"/>
+  <PushData value="Generator,0,3"/>
+</numpickerVI>   
+
+<scrollVI>
+  <ID value="8"/>
+  <Rect value="20,390,140,50"/>
+  <Color value="ff00aaaa,ffaa00cc,ff888888"/>      
+  <PinType value="2"/>
+  <Value value="50"/>
+  <Rate value="10"/>  
+  <PushData value="Generator,0,2"/>
+</scrollVI>
+ 
+
+<ECGMonitor>
+  <ID value="Monitor"/>
+  <Rect value="180,15,700,420"/>
+  <Parameters1 value="-10,10"/>  
+  <Parameters2 value="0,10"/>      
+</ECGMonitor> 
+
+<button1VI>
+  <ID value="Switch"/>
+  <Rect value="20,15,140,50"/>
+  <Color value="000000,aa8888"/>
+  <Text value="运行_停止"/>
+  <FontSize value="16"/>
+  <PushData value="Generator,0,0"/>
+</button1VI>
+
+<mbuttonVI>
+  <ID value="SignalType"/>
+  <Rect value="20,90,140,210"/>
+  <Color value="000000,88aa88"/>
+  <Text value="白噪声_正弦波_方波_三角波"/>
+  <FontSize value="16"/>
+  <Number value="4"/>;
+  <Select value="1"/>
+  <Type value="1"/>
+  <PushData value="Generator,0,1"/>
+</mbuttonVI>
+
+<generator1VI>
+  <ID value="Generator"/>
+  <Rect value="20,540,46,40"/>
+  <Type value="1"/>
+  <Length value="32768"/>
+  <Fs value="44100"/>
+  <A_F_P value="4,800,0"/>   
+  <PushData value="Monitor,0,0,Speaker,0,0"/>
+</generator1VI>
+
+
+<speakerVI>
+  <ID value="Speaker"/>
+  <Rect value="120,540,40,40"/>
+  <Amplify value="1000"/>
+</speakerVI>     
+
+<buttonVI>
+  <ID value="6"/>
+  <Rect value="20,460,140,50"/>
+  <Color value="000000,88aa88"/>
+  <Text value="播放_停止"/>
+  <PushData value="Speaker,0,0"/>
+</buttonVI>
+
+<numpickerVI>
+  <ID value="7"/>
+  <Rect value="20,320,140,50"/>
+  <Color value="000000,aa8888"/>
+  <FontSize value="16"/>  
+  <Parameters value="0,10,0.5"/> 
+  <Value value="4"/>
+  <PushData value="Generator,0,3"/>
+</numpickerVI>   
+
+<scrollVI>
+  <ID value="8"/>
+  <Rect value="20,390,140,50"/>
+  <Color value="ff00aaaa,ffaa00cc,ff888888"/>      
+  <PinType value="2"/>
+  <Value value="50"/>
+  <Rate value="10"/>  
+  <PushData value="Generator,0,2"/>
+</scrollVI>
+ 
+
+<ECGMonitor>
+  <ID value="Monitor"/>
+  <Rect value="180,15,700,420"/>
+  <Parameters1 value="-10,10"/>  
+  <Parameters2 value="0,10"/>      
+</ECGMonitor> 
+
+<button1VI>
+  <ID value="Switch"/>
+  <Rect value="20,15,140,50"/>
+  <Color value="000000,aa8888"/>
+  <Text value="运行_停止"/>
+  <FontSize value="16"/>
+  <PushData value="Generator,0,0"/>
+</button1VI>
+
+<mbuttonVI>
+  <ID value="SignalType"/>
+  <Rect value="20,90,140,210"/>
+  <Color value="000000,88aa88"/>
+  <Text value="白噪声_正弦波_方波_三角波"/>
+  <FontSize value="16"/>
+  <Number value="4"/>;
+  <Select value="1"/>
+  <Type value="1"/>
+  <PushData value="Generator,0,1"/>
+</mbuttonVI>
+
+<generator1VI>
+  <ID value="Generator"/>
+  <Rect value="20,540,46,40"/>
+  <Type value="1"/>
+  <Length value="32768"/>
+  <Fs value="44100"/>
+  <A_F_P value="4,800,0"/>   
+  <PushData value="Monitor,0,0,Speaker,0,0"/>
+</generator1VI>
+
+
+<speakerVI>
+  <ID value="Speaker"/>
+  <Rect value="120,540,40,40"/>
+  <Amplify value="1000"/>
+</speakerVI>     
+
+<buttonVI>
+  <ID value="6"/>
+  <Rect value="20,460,140,50"/>
+  <Color value="000000,88aa88"/>
+  <Text value="播放_停止"/>
+  <PushData value="Speaker,0,0"/>
+</buttonVI>
+
+<numpickerVI>
+  <ID value="7"/>
+  <Rect value="20,320,140,50"/>
+  <Color value="000000,aa8888"/>
+  <FontSize value="16"/>  
+  <Parameters value="0,10,0.5"/> 
+  <Value value="4"/>
+  <PushData value="Generator,0,3"/>
+</numpickerVI>   
+
+<scrollVI>
+  <ID value="8"/>
+  <Rect value="20,390,140,50"/>
+  <Color value="ff00aaaa,ffaa00cc,ff888888"/>      
+  <PinType value="2"/>
+  <Value value="50"/>
+  <Rate value="10"/>  
+  <PushData value="Generator,0,2"/>
+</scrollVI>
+ 
+
+<ECGMonitor>
+  <ID value="Monitor"/>
+  <Rect value="180,15,700,420"/>
+  <Parameters1 value="-10,10"/>  
+  <Parameters2 value="0,10"/>      
+</ECGMonitor> 
+
+<button1VI>
+  <ID value="Switch"/>
+  <Rect value="20,15,140,50"/>
+  <Color value="000000,aa8888"/>
+  <Text value="运行_停止"/>
+  <FontSize value="16"/>
+  <PushData value="Generator,0,0"/>
+</button1VI>
+
+<mbuttonVI>
+  <ID value="SignalType"/>
+  <Rect value="20,90,140,210"/>
+  <Color value="000000,88aa88"/>
+  <Text value="白噪声_正弦波_方波_三角波"/>
+  <FontSize value="16"/>
+  <Number value="4"/>;
+  <Select value="1"/>
+  <Type value="1"/>
+  <PushData value="Generator,0,1"/>
+</mbuttonVI>
+
+<generator1VI>
+  <ID value="Generator"/>
+  <Rect value="20,540,46,40"/>
+  <Type value="1"/>
+  <Length value="32768"/>
+  <Fs value="44100"/>
+  <A_F_P value="4,800,0"/>   
+  <PushData value="Monitor,0,0,Speaker,0,0"/>
+</generator1VI>
+
+
+<speakerVI>
+  <ID value="Speaker"/>
+  <Rect value="120,540,40,40"/>
+  <Amplify value="1000"/>
+</speakerVI>     
+
+<buttonVI>
+  <ID value="6"/>
+  <Rect value="20,460,140,50"/>
+  <Color value="000000,88aa88"/>
+  <Text value="播放_停止"/>
+  <PushData value="Speaker,0,0"/>
+</buttonVI>
+
+<numpickerVI>
+  <ID value="7"/>
+  <Rect value="20,320,140,50"/>
+  <Color value="000000,aa8888"/>
+  <FontSize value="16"/>  
+  <Parameters value="0,10,0.5"/> 
+  <Value value="4"/>
+  <PushData value="Generator,0,3"/>
+</numpickerVI>   
+
+<scrollVI>
+  <ID value="8"/>
+  <Rect value="20,390,140,50"/>
+  <Color value="ff00aaaa,ffaa00cc,ff888888"/>      
+  <PinType value="2"/>
+  <Value value="50"/>
+  <Rate value="10"/>  
+  <PushData value="Generator,0,2"/>
+</scrollVI>
+ 
+
+<ECGMonitor>
+  <ID value="Monitor"/>
+  <Rect value="180,15,700,420"/>
+  <Parameters1 value="-10,10"/>  
+  <Parameters2 value="0,10"/>      
+</ECGMonitor> 
+
+<button1VI>
+  <ID value="Switch"/>
+  <Rect value="20,15,140,50"/>
+  <Color value="000000,aa8888"/>
+  <Text value="运行_停止"/>
+  <FontSize value="16"/>
+  <PushData value="Generator,0,0"/>
+</button1VI>
+
+<mbuttonVI>
+  <ID value="SignalType"/>
+  <Rect value="20,90,140,210"/>
+  <Color value="000000,88aa88"/>
+  <Text value="白噪声_正弦波_方波_三角波"/>
+  <FontSize value="16"/>
+  <Number value="4"/>;
+  <Select value="1"/>
+  <Type value="1"/>
+  <PushData value="Generator,0,1"/>
+</mbuttonVI>
+
+<generator1VI>
+  <ID value="Generator"/>
+  <Rect value="20,540,46,40"/>
+  <Type value="1"/>
+  <Length value="32768"/>
+  <Fs value="44100"/>
+  <A_F_P value="4,800,0"/>   
+  <PushData value="Monitor,0,0,Speaker,0,0"/>
+</generator1VI>
+
+
+<speakerVI>
+  <ID value="Speaker"/>
+  <Rect value="120,540,40,40"/>
+  <Amplify value="1000"/>
+</speakerVI>     
+
+<buttonVI>
+  <ID value="6"/>
+  <Rect value="20,460,140,50"/>
+  <Color value="000000,88aa88"/>
+  <Text value="播放_停止"/>
+  <PushData value="Speaker,0,0"/>
+</buttonVI>
+
+<numpickerVI>
+  <ID value="7"/>
+  <Rect value="20,320,140,50"/>
+  <Color value="000000,aa8888"/>
+  <FontSize value="16"/>  
+  <Parameters value="0,10,0.5"/> 
+  <Value value="4"/>
+  <PushData value="Generator,0,3"/>
+</numpickerVI>   
+
+<scrollVI>
+  <ID value="8"/>
+  <Rect value="20,390,140,50"/>
+  <Color value="ff00aaaa,ffaa00cc,ff888888"/>      
+  <PinType value="2"/>
+  <Value value="50"/>
+  <Rate value="10"/>  
+  <PushData value="Generator,0,2"/>
+</scrollVI>
+ 
+
+<ECGMonitor>
+  <ID value="Monitor"/>
+  <Rect value="180,15,700,420"/>
+  <Parameters1 value="-10,10"/>  
+  <Parameters2 value="0,10"/>      
+</ECGMonitor> 
+
+<button1VI>
+  <ID value="Switch"/>
+  <Rect value="20,15,140,50"/>
+  <Color value="000000,aa8888"/>
+  <Text value="运行_停止"/>
+  <FontSize value="16"/>
+  <PushData value="Generator,0,0"/>
+</button1VI>
+
+<mbuttonVI>
+  <ID value="SignalType"/>
+  <Rect value="20,90,140,210"/>
+  <Color value="000000,88aa88"/>
+  <Text value="白噪声_正弦波_方波_三角波"/>
+  <FontSize value="16"/>
+  <Number value="4"/>;
+  <Select value="1"/>
+  <Type value="1"/>
+  <PushData value="Generator,0,1"/>
+</mbuttonVI>
+
+<generator1VI>
+  <ID value="Generator"/>
+  <Rect value="20,540,46,40"/>
+  <Type value="1"/>
+  <Length value="32768"/>
+  <Fs value="44100"/>
+  <A_F_P value="4,800,0"/>   
+  <PushData value="Monitor,0,0,Speaker,0,0"/>
+</generator1VI>
+
+
+<speakerVI>
+  <ID value="Speaker"/>
+  <Rect value="120,540,40,40"/>
+  <Amplify value="1000"/>
+</speakerVI>     
+
+<buttonVI>
+  <ID value="6"/>
+  <Rect value="20,460,140,50"/>
+  <Color value="000000,88aa88"/>
+  <Text value="播放_停止"/>
+  <PushData value="Speaker,0,0"/>
+</buttonVI>
+
+<numpickerVI>
+  <ID value="7"/>
+  <Rect value="20,320,140,50"/>
+  <Color value="000000,aa8888"/>
+  <FontSize value="16"/>  
+  <Parameters value="0,10,0.5"/> 
+  <Value value="4"/>
+  <PushData value="Generator,0,3"/>
+</numpickerVI>   
+
+<scrollVI>
+  <ID value="8"/>
+  <Rect value="20,390,140,50"/>
+  <Color value="ff00aaaa,ffaa00cc,ff888888"/>      
+  <PinType value="2"/>
+  <Value value="50"/>
+  <Rate value="10"/>  
+  <PushData value="Generator,0,2"/>
+</scrollVI>
+ 
+
+<ECGMonitor>
+  <ID value="Monitor"/>
+  <Rect value="180,15,700,420"/>
+  <Parameters1 value="-10,10"/>  
+  <Parameters2 value="0,10"/>      
+</ECGMonitor> 
+
+<button1VI>
+  <ID value="Switch"/>
+  <Rect value="20,15,140,50"/>
+  <Color value="000000,aa8888"/>
+  <Text value="运行_停止"/>
+  <FontSize value="16"/>
+  <PushData value="Generator,0,0"/>
+</button1VI>
+
+<mbuttonVI>
+  <ID value="SignalType"/>
+  <Rect value="20,90,140,210"/>
+  <Color value="000000,88aa88"/>
+  <Text value="白噪声_正弦波_方波_三角波"/>
+  <FontSize value="16"/>
+  <Number value="4"/>;
+  <Select value="1"/>
+  <Type value="1"/>
+  <PushData value="Generator,0,1"/>
+</mbuttonVI>
+
+<generator1VI>
+  <ID value="Generator"/>
+  <Rect value="20,540,46,40"/>
+  <Type value="1"/>
+  <Length value="32768"/>
+  <Fs value="44100"/>
+  <A_F_P value="4,800,0"/>   
+  <PushData value="Monitor,0,0,Speaker,0,0"/>
+</generator1VI>
+
+
+<speakerVI>
+  <ID value="Speaker"/>
+  <Rect value="120,540,40,40"/>
+  <Amplify value="1000"/>
+</speakerVI>     
+
+<buttonVI>
+  <ID value="6"/>
+  <Rect value="20,460,140,50"/>
+  <Color value="000000,88aa88"/>
+  <Text value="播放_停止"/>
+  <PushData value="Speaker,0,0"/>
+</buttonVI>
+
+<numpickerVI>
+  <ID value="7"/>
+  <Rect value="20,320,140,50"/>
+  <Color value="000000,aa8888"/>
+  <FontSize value="16"/>  
+  <Parameters value="0,10,0.5"/> 
+  <Value value="4"/>
+  <PushData value="Generator,0,3"/>
+</numpickerVI>   
+
+<scrollVI>
+  <ID value="8"/>
+  <Rect value="20,390,140,50"/>
+  <Color value="ff00aaaa,ffaa00cc,ff888888"/>      
+  <PinType value="2"/>
+  <Value value="50"/>
+  <Rate value="10"/>  
+  <PushData value="Generator,0,2"/>
+</scrollVI>
+ 
+
+<ECGMonitor>
+  <ID value="Monitor"/>
+  <Rect value="180,15,700,420"/>
+  <Parameters1 value="-10,10"/>  
+  <Parameters2 value="0,10"/>      
+</ECGMonitor> 
+
+
+</xviml_1.x>
